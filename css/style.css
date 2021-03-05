@@ -229,7 +229,7 @@
 h2 {
   font-size: 2.8rem;
   line-height: 1.5;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 800;
   color: #333333;
 }
@@ -237,7 +237,7 @@ h2 {
 h3 {
   font-size: 2rem;
   line-height: 1.5;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   color: #02cc02;
   -webkit-margin-after: 5px;
           margin-block-end: 5px;
@@ -256,7 +256,7 @@ h3 span {
 p {
   font-size: 1.8rem;
   line-height: 1.5;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   color: #969696;
 }
@@ -345,7 +345,7 @@ a:focus {
 }
 
 .brand-text {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #333333;
   font-size: 2rem;
   font-weight: 400;
@@ -427,7 +427,7 @@ a:focus {
 
 .hero-text h1 {
   font-size: 2.8rem;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 600;
   color: #02cc02;
   padding: 0;
@@ -504,23 +504,31 @@ a:focus {
           margin-block-end: 10px;
 }
 
-.image-container.recent-image {
+.image-container.recent-image-adventures {
   background-image: url(../assets/images/new-adventures.png);
 }
 
-.image-container.recent-image2 {
+.image-container.recent-image-marmite {
   background-image: url(../assets/images/marmite.png);
 }
 
-.image-container.showcase-image {
+.image-container.recent-image-stitch {
+  background-image: url(../assets/images/stitch-static.png);
+}
+
+.image-container.recent-image-zen {
+  background-image: url(../assets/images/zen-garden.png);
+}
+
+.image-container.showcase-image-figma {
   background-image: url(../assets/videos/figma-site-scroll.gif);
 }
 
-.image-container.showcase-image2 {
+.image-container.showcase-image-fetch {
   background-image: url(../assets/images/fetch.png);
 }
 
-.image-container.showcase-image3 {
+.image-container.showcase-image-cool-car {
   background-image: url(../assets/images/cool-car.png);
 }
 
@@ -556,11 +564,13 @@ a:focus {
   background-image: url(../assets/images/huddle-front.jpg);
 }
 
-.image-container.recent-image,
-.image-container.recent-image2,
-.image-container.showcase-image,
-.image-container.showcase-image2,
-.image-container.showcase-image3 {
+.image-container.recent-image-adventures,
+.image-container.recent-image-marmite,
+.image-container.recent-image-stitch,
+.image-container.recent-image-zen,
+.image-container.showcase-image-figma,
+.image-container.showcase-image-fetch,
+.image-container.showcase-image-cool-car {
   -ms-grid-column: 1;
   grid-column: 1;
   cursor: pointer;
@@ -578,11 +588,13 @@ a:focus {
 }
 
 @media (min-width: 961px) {
-  .image-container.recent-image,
-  .image-container.recent-image2,
-  .image-container.showcase-image,
-  .image-container.showcase-image2,
-  .image-container.showcase-image3 {
+  .image-container.recent-image-adventures,
+  .image-container.recent-image-marmite,
+  .image-container.recent-image-stitch,
+  .image-container.recent-image-zen,
+  .image-container.showcase-image-figma,
+  .image-container.showcase-image-fetch,
+  .image-container.showcase-image-cool-car {
     -ms-grid-column: 1;
     -ms-grid-column-span: 6;
     grid-column: 1 / 7;

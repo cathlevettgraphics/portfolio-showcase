@@ -236,7 +236,7 @@ $small-desktop: 961px;
 h2 {
   font-size: 2.8rem;
   line-height: 1.5;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 800;
   color: $color-text-black;
 }
@@ -244,7 +244,7 @@ h2 {
 h3 {
   font-size: 2rem;
   line-height: 1.5;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   color: $color-highlight-green;
   margin-block-end: 5px;
 
@@ -262,7 +262,7 @@ h3 {
 p {
   font-size: 1.8rem;
   line-height: 1.5;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   color: $color-text-grey;
 }
@@ -333,7 +333,7 @@ a:focus {
 }
 
 .brand-text {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: $color-text-black;
   font-size: 2rem;
   font-weight: 400;
@@ -412,7 +412,7 @@ a:focus {
 
 .hero-text h1 {
   font-size: 2.8rem;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 600;
   color: $color-highlight-green;
   padding: 0;
@@ -509,24 +509,32 @@ a:focus {
 }
 
 // !! Recent work
-.image-container.recent-image {
+.image-container.recent-image-adventures {
   background-image: url(../assets/images/new-adventures.png);
 }
 
-.image-container.recent-image2 {
+.image-container.recent-image-marmite {
   background-image: url(../assets/images/marmite.png);
 }
 
+.image-container.recent-image-stitch {
+  background-image: url(../assets/images/stitch-static.png);
+}
+
+.image-container.recent-image-zen {
+  background-image: url(../assets/images/zen-garden.png);
+}
+
 // !! Showcase work
-.image-container.showcase-image {
+.image-container.showcase-image-figma {
   background-image: url(../assets/videos/figma-site-scroll.gif);
 }
 
-.image-container.showcase-image2 {
+.image-container.showcase-image-fetch {
   background-image: url(../assets/images/fetch.png);
 }
 
-.image-container.showcase-image3 {
+.image-container.showcase-image-cool-car {
   background-image: url(../assets/images/cool-car.png);
 }
 
@@ -578,11 +586,13 @@ a:focus {
 }
 
 // !! Recent and Showcase images
-.image-container.recent-image,
-.image-container.recent-image2,
-.image-container.showcase-image,
-.image-container.showcase-image2,
-.image-container.showcase-image3 {
+.image-container.recent-image-adventures,
+.image-container.recent-image-marmite,
+.image-container.recent-image-stitch,
+.image-container.recent-image-zen,
+.image-container.showcase-image-figma,
+.image-container.showcase-image-fetch,
+.image-container.showcase-image-cool-car {
   @include image-container-default;
   background-size: contain;
   background-repeat: no-repeat;
@@ -592,11 +602,13 @@ a:focus {
 }
 
 @media (min-width: $small-desktop) {
-  .image-container.recent-image,
-  .image-container.recent-image2,
-  .image-container.showcase-image,
-  .image-container.showcase-image2,
-  .image-container.showcase-image3 {
+  .image-container.recent-image-adventures,
+  .image-container.recent-image-marmite,
+  .image-container.recent-image-stitch,
+  .image-container.recent-image-zen,
+  .image-container.showcase-image-figma,
+  .image-container.showcase-image-fetch,
+  .image-container.showcase-image-cool-car {
     grid-column: 1 / 7;
     // height: 300px;
     background-size: cover;
