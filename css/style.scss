@@ -473,6 +473,11 @@ a:focus {
   background-image: url(../assets/images/olympics.png);
 }
 
+// !! Gen art and creative
+.image-container.showcase-image-creative {
+  background-image: url(../assets/images/gen-art.png);
+}
+
 // !! Animations and experiments
 .image-container.stitch {
   background-image: url(../assets/images/stitch-static.png);
@@ -552,6 +557,7 @@ a:focus {
 
 // !! Recent and Showcase images
 .showcase-image-olympics,
+.showcase-image-creative,
 .image-container.recent-image-adventures,
 .image-container.recent-image-marmite,
 .image-container.recent-image-stitch,
@@ -569,6 +575,7 @@ a:focus {
 
 @media (min-width: $small-desktop) {
   .showcase-image-olympics,
+  .showcase-image-creative,
   .image-container.recent-image-adventures,
   .image-container.recent-image-marmite,
   .image-container.recent-image-stitch,
