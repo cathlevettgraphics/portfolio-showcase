@@ -509,6 +509,10 @@ a:focus {
   background-image: url(../assets/images/gen-art.png);
 }
 
+.image-container.showcase-image-donut {
+  background-image: url(../assets/images/donut-trail.png);
+}
+
 .image-container.stitch {
   background-image: url(../assets/images/stitch-static.png);
 }
@@ -571,6 +575,7 @@ a:focus {
 
 .showcase-image-olympics,
 .showcase-image-creative,
+.showcase-image-donut,
 .image-container.recent-image-adventures,
 .image-container.recent-image-marmite,
 .image-container.recent-image-stitch,
@@ -599,6 +604,7 @@ a:focus {
 @media (min-width: 961px) {
   .showcase-image-olympics,
   .showcase-image-creative,
+  .showcase-image-donut,
   .image-container.recent-image-adventures,
   .image-container.recent-image-marmite,
   .image-container.recent-image-stitch,

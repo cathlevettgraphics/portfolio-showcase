@@ -478,6 +478,11 @@ a:focus {
   background-image: url(../assets/images/gen-art.png);
 }
 
+// !! Three js donuts
+.image-container.showcase-image-donut {
+  background-image: url(../assets/images/donut-trail.png);
+}
+
 // !! Animations and experiments
 .image-container.stitch {
   background-image: url(../assets/images/stitch-static.png);
@@ -561,6 +566,7 @@ a:focus {
 // !! Recent and Showcase images
 .showcase-image-olympics,
 .showcase-image-creative,
+.showcase-image-donut,
 .image-container.recent-image-adventures,
 .image-container.recent-image-marmite,
 .image-container.recent-image-stitch,
@@ -580,6 +586,7 @@ a:focus {
 @media (min-width: $small-desktop) {
   .showcase-image-olympics,
   .showcase-image-creative,
+  .showcase-image-donut,
   .image-container.recent-image-adventures,
   .image-container.recent-image-marmite,
   .image-container.recent-image-stitch,
