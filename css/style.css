@@ -509,6 +509,10 @@ a:focus {
   background-image: url(../assets/images/gen-art.png);
 }
 
+.image-container.showcase-image-desert-dino {
+  background-image: url(../assets/images/desert-dino.png);
+}
+
 .image-container.showcase-image-donut {
   background-image: url(../assets/images/donut-trail.png);
 }
@@ -573,9 +577,10 @@ a:focus {
   background-image: url(../assets/images/huddle-front.jpg);
 }
 
-.showcase-image-olympics,
-.showcase-image-creative,
 .showcase-image-donut,
+.showcase-image-desert-dino,
+.showcase-image-creative,
+.showcase-image-olympics,
 .image-container.recent-image-adventures,
 .image-container.recent-image-marmite,
 .image-container.recent-image-stitch,
@@ -602,9 +607,10 @@ a:focus {
 }
 
 @media (min-width: 961px) {
-  .showcase-image-olympics,
-  .showcase-image-creative,
   .showcase-image-donut,
+  .showcase-image-desert-dino,
+  .showcase-image-creative,
+  .showcase-image-olympics,
   .image-container.recent-image-adventures,
   .image-container.recent-image-marmite,
   .image-container.recent-image-stitch,
